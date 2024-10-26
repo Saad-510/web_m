@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>html form</title>
+</head>
+<body>
+<h2><b>HTML REGISTRATION FORM</FORM></b></h2>
+<form action="welcome.html">
+       <label for="firstName"><b>First Name:</b></label>
+       <input placeholder="firstName" type="text"  name="firstName" required>
+       <br/><br/>
+       <label for="lastName"><b>Last Name:</b></label>
+       <input placeholder="lastName" type="text" name="lastName" required>
+       <br/><br/>
+       <label for="email"><b>Email:</b></label>
+      <input placeholder="you@example.com" type="email" name="Enter Email" required>
+       <br/><br/>
+       <label for="age"><b>Age:</b></label>
+       <input placeholder="Age 18_30" type="number" name="age" min="18" max="30" required>
+       <br/><br/>
+       <label for="password"><b>Password:</b></label>
+       <input placeholder="Enter Password"type="password"  name="password" required pattern=".{8,}" title="Password must be at least 8 characters long and include letters and numbers.">
+       <br/><br/>
+       <label for="phone"><b>Phone Number:</b></label>
+       <input placeholder="Contact Number" type="number" name="phone" required pattern="^\d{11}$" title="Phone number must be exactly 11 digits.">
+      <br/><br/>
+      <label for="Choose Country"><b>Country:</b></label>
+      
+      <select>
+        <option selected disabled="Choose Country" >Choose Country</option>
+        <option value="PAKISTAN">PAKISTAN</option>
+        <option value="INDIA">INDIA</option>
+        <option value="BANGLADESH">BANGLADESH</option>
+        <option value="others"</option>
+        </select>
+        <br/><br/>
+       <label for="dob"><b>Date of Birth:</b></label>
+       <input type="date" name="dob" required>
+       <br/><br/>  
+      <label for="address"><b>Address:</b></label>
+       <br/><br/>
+      <textarea  name="address" rows="4" required></textarea>
+      <br/><br/>
+      <label for="Hobbies"><b>Hobbies:</b></label>
+      <br/><br/>
+      <input type="checkbox"name="Hobbies">Singing
+      <input type="checkbox"name="Hobbies">Playing
+      <input type="checkbox"name="Hobbies">Reading
+       <input type="checkbox"name="Hobbies">Dancing
+    <br/><br/>
+    <label for="gender"><b>Gender:</b></label>
+    <br/><br/>
+    <input type="radio"name="Male">Male
+    <input type="radio"name="Female">Female
+    <input type="radio"name="others">others
+    <br/><br/>
+    <label for="image"><b>Upload Image:</b></label>
+    <input type="file" name="image">
+    <br/><br/>
+    <button type="submit"><b>Submit</b></button>
+</form>
+
+<h3><b>Contact Us;</b></h3>
+<p>You can contact us via <a href="mailto:memonsaad510@gmail.com""target="_blank">email</a> or connect with us on <br/>
+  <a href="https://www.linkedin.com/in/saad-memon-77076a325/.com"target="_blank">linkedin</a>.</p>
+  
+</body>
+</html>
